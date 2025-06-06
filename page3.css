@@ -86,7 +86,7 @@
     font-size: 60px;
     font-family: papyrus;
     box-shadow: 0px 0px 20px rgb(47, 4, 4);
-    background-image: url(./calli_head001.png);
+    background-image: url("./calli_head001.png");
     z-index: 1;
 }
 
