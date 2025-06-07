@@ -61,8 +61,8 @@
     display: block;
     width: 100%;
     padding: 20px 10px;
-    font-family: Papyrus, "Quintessential", serif;
-    font-size: 25px;
+    font-family: 'Moon Dance', 'Quintessential', serif;
+    font-size: 35px;
     color: black;
     text-decoration: none;
 }
@@ -83,7 +83,7 @@
     position: fixed;
     text-align: center;
     font-size: 60px;
-    font-family: papyrus;
+    font-family: 'Moon Dance', 'Quintessential', serif;
     box-shadow: 0px 0px 20px rgb(47, 4, 4);
     background-image: url(./calli_head001.png);
     z-index: 10;
@@ -96,8 +96,8 @@
 }
 .container .content h1{
     text-align: center;
-    font-size: 35px;
-    font-family: papyrus;
+    font-size: 45px;
+    font-family: 'Moon Dance', 'Quintessential', serif;
     color: black;
 }
 .container .content p{
@@ -126,7 +126,7 @@
         position: fixed;
         left: 0px;
         width: 100%;
-        height: 58px;
+        height: 63px;
         flex-direction: row;
         justify-content: center;
         box-shadow: none;
@@ -135,7 +135,8 @@
         border-bottom: 1px solid black;
         border-top: 1px solid black;
         z-index: 1;
-        top: 60px;
+        top: 57px;
+        
     }
      .menu .list {
         width: 100%;
@@ -149,7 +150,7 @@
     }
 
      .ul1 a {
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
         border-bottom: none;
     }
