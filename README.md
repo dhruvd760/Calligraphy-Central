@@ -19,18 +19,6 @@ Calligraphy Central is a website dedicated to providing information about the ar
 
 This website is under constant development. New features, including an images section, will be added soon. Stay tuned for updates!
 
-## Getting Started
-
-To view the website locally:
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/dhruvd760/CaliProject.git
-   ```
-2. Open the `index.html` file in your browser.
-
-No additional setup is required.
-
 ## Contribution
 
 At this time, external contributions are not open. Please check back in the future if you are interested in contributing!
