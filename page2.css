@@ -1,179 +1,177 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Quintessential", serif;
-    font-weight: 400;
-    font-style: normal;
-    
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .container {
-    position: absolute;
-    width: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 .menu {
-      position: fixed;
-      margin-top:0px;
-      height: 100vh;
-      width: 160px;
-      box-shadow: 0px 0px 20px rgb(47, 4, 4);
-      display: flex;
-    flex-direction: column;
-    z-index: 1;
-    justify-content: flex-start;
-    align-items: center;
+  position: fixed;
+  margin-top: 0px;
+  height: 100vh;
+  width: 160px;
+  box-shadow: 0px 0px 20px rgb(47, 4, 4);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.menu .list{
-    position: absolute;
-    width: 100%;
-    margin-top: 210px;
-    left: 10px;
+.menu .list {
+  position: absolute;
+  width: 100%;
+  margin-top: 210px;
+  left: 10px;
 }
 
-   .ul1 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    width: 100%;
-    align-items: center;
+.ul1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  align-items: center;
 }
 
 .ul1 li {
-    width: 100%;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ul1 a {
-    display: block;
-    width: 100%;
-    padding: 20px 10px;
-    font-family: 'Moon Dance', 'Quintessential', serif;
-    font-size: 35px;
-    color: black;
-    text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 20px 10px;
+  font-family: "Moon Dance", "Quintessential", serif;
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
 }
 
-.container .bkgimg{
+.container .bkgimg {
+  background-image: url("./main_fin.png");
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  margin-top: 90px;
+  /* opacity: 0.86; */
+  filter: blur(3px);
+}
+
+.head {
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Moon Dance", "Quintessential", serif;
+  box-shadow: 0px 0px 20px rgb(47, 4, 4);
+  background-image: url(./calli_head001.png);
+  z-index: 10;
+}
+
+.container .content {
+  position: relative;
+  top: 120px;
+  margin-left: 180px;
+}
+.container .content h1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: "Moon Dance", "Quintessential", serif;
+  color: black;
+}
+.container .content p {
+  font-size: 28px;
+  color: black;
+  text-align: justify;
+  margin: 20px;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .bkgimg {
     background-image: url("./main_fin.png");
     height: 100%;
     width: 100%;
-    position: fixed;
-    background-size: cover;
-    margin-top: 90px;
+    bottom: 0px;
+    background-size: contain;
+    top: 30px;
     opacity: 0.86;
-}
-
-.head{
-    height: 90px;
-    width: 100%;
+  }
+  .menu {
     position: fixed;
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Moon Dance', 'Quintessential', serif;
-    box-shadow: 0px 0px 20px rgb(47, 4, 4);
-    background-image: url(./calli_head001.png);
-    z-index: 10;
-}
+    left: 0px;
+    width: 100%;
+    height: 63px;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: none;
+    background-image: url("./mob.png");
+    border-top: 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    z-index: 1;
+    top: 57px;
+  }
+  .menu .list {
+    width: 100%;
+    margin-top: 5px;
+    flex-direction: row;
+  }
+  .ul1 {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
 
-.container .content{
-    position: relative;
-    top: 120px;
-    margin-left: 180px;
-}
-.container .content h1{
+  .ul1 a {
+    font-size: 20px;
     text-align: center;
-    font-size: 45px;
-    font-family: 'Moon Dance', 'Quintessential', serif;
-    color: black;
-}
-.container .content p{
-    font-size: 28px;
-    color: black;
-    text-align: justify;
-    margin: 20px;
-}
-@media (max-width: 600px) {
-.container {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .bkgimg {
-        background-image: url("./main_fin.png");
-        height: 100%;
-        width: 100%;
-        bottom: 0px;
-        background-size: contain;
-        top: 30px;
-        opacity: 0.86;
-    }
-    .menu {
-        position: fixed;
-        left: 0px;
-        width: 100%;
-        height: 63px;
-        flex-direction: row;
-        justify-content: center;
-        box-shadow: none;
-        background-image: url("./mob.png");
-        border-top: 0;
-        border-bottom: 1px solid black;
-        border-top: 1px solid black;
-        z-index: 1;
-        top: 57px;
-        
-    }
-     .menu .list {
-        width: 100%;
-        margin-top: 5px;
-        flex-direction: row;
-    }
-    .ul1 {
-         flex-direction: row;
-         width: 100%;
-         align-items: center;
-    }
-
-     .ul1 a {
-        font-size: 20px;
-        text-align: center;
-        border-bottom: none;
-    }
-    .head{
-        height: 60px;
-       font-size: 40px;
-        z-index: 1;
-        margin-right: 500px;
-        background-image: none;
-        box-shadow: none;
-        background-image: url("./mob.png");
-    }
-    .container .content{
-        margin-top: 50px;
-        margin-left: 0;
-        z-index: 0;
-    }
-    .container .content h1 {
-        font-size: 24px;
-        margin-right: fit-content;
-    }
-    .container .content p {
-        font-size: 18px;
-        margin-left: 10px;
-        margin-right: fit-content;
-    }
-    .quotes {
-        font-size: 18px;
-        margin-left: fit-content;
-        margin-right: fit-content;
-    }
+    border-bottom: none;
+  }
+  .head {
+    height: 60px;
+    font-size: 40px;
+    z-index: 1;
+    margin-right: 500px;
+    background-image: none;
+    box-shadow: none;
+    background-image: url("./mob.png");
+  }
+  .container .content {
+    margin-top: 50px;
+    margin-left: 0;
+    z-index: 0;
+  }
+  .container .content h1 {
+    font-size: 24px;
+    margin-right: fit-content;
+  }
+  .container .content p {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: fit-content;
+  }
+  .quotes {
+    font-size: 18px;
+    margin-left: fit-content;
+    margin-right: fit-content;
+  }
 }
